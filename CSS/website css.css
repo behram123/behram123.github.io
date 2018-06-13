@@ -1,0 +1,116 @@
+﻿/* Timothy Framework - www.timothyframework.com */
+/* This work is licensed under the MIT License - http://www.opensource.org/licenses/mit-license.php */
+
+
+/* Color Legend */
+
+
+
+
+#slider {
+    width: 900px; /* important to be same as image width */
+    height: 400px; /* important to be same as image height */
+    position: relative; /* important */
+	overflow: hidden; /* important */
+	text-align:left;
+
+}
+
+#sliderContent {
+    width: 900px; /* important to be same as image width or wider */
+    position: absolute;
+	top: 0;
+	margin-left: 0;
+}
+
+.sliderImage {
+    float: left;
+    position: relative;
+	display: none;
+}
+
+.sliderImage span {
+    position: absolute;
+    padding: 0px;
+    width: 200px;  /* This is the width of the caption box  */
+	height:100; /* This is the height of the caption box  */
+    background-color: #000;  /* This sets the background color of the semi transparent box */
+    /* If you do not want the transparent content field to appear, change all opacity values to 0 */
+	filter: alpha(opacity=); -moz-opacity: 0.7; -khtml-opacity: 0.7; opacity: 0.7;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	line-height:75%;
+    color: #fff; /* This is the color of the text in the caption box */
+    display: none;
+}
+
+.sliderImage span strong { 
+	color:#Red;  /* This is the color of the title text in the caption box */
+	font-size: 20px; /* This is the font size of the title text in the caption box */
+	line-height:300%;
+	}
+
+.clear { clear: both; }
+
+
+.top { top: 0; left: 700px; }  /* This sets the upper left corner of the caption box */
+
+.bottom { bottom: 0; left: 0; } /* This sets the lower left corner of the caption box */
+
+#slider ul 		{ list-style-type: none;}
+#slider ul li 	{ margin-left:0px; }
+
+
+#subbanner 			{ width:900px; height:70px; background-color:black; overflow:hidden; padding:10px 0;   }
+#subbanner p		{ line-height:180%; font-size:16px; font-weight:bold; color:#fff; text-align:center;  }
+
+#top				{ background-color:black; width:100%; overflow: hidden; padding:20px 0;
+						border-bottom:#eee; 	}
+						
+#footer 			{ clear:both; padding:10px 0; background-color:#000; width:900px; }
+
+
+#content 			{ float:left; width:900px; padding:20px; background-color: white;  }
+#content h1			{ margin:0 0 20px 0; border-bottom:1px #999 solid; padding:20px 0; background-color: white; }
+#content h2			{ margin:10px 0; background-color: white; }
+#content p			{ line-height:150%; margin:10px 10px 0 0;  background-color: white;}
+#content img		{ padding:8px; border:1px #ccc solid; margin:8px; background-color: white; }
+
+
+#social-media			{ float:right; margin:0 10px 0 0; text-align:left; }
+#social-media ul 		{	}
+#social-media ul li		{ display:inline;  	}
+#social-media ul li a	{	}
+#social-media p			{ color:#fff; margin:4px 10px 4px 0px; font-size:11px; }
+
+
+
+#fh5co-offcanvas ul li.shopping-cart {
+  float: left;
+}
+#fh5co-offcanvas ul li a.cart {
+  display: block;
+  margin-top: 30px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#fh5co-offcanvas ul li a.cart span {
+  position: relative;
+}
+#fh5co-offcanvas ul li a.cart span small {
+  position: absolute;
+  top: -20px;
+  right: -15px;
+  padding: 10px 6px;
+  line-height: 0;
+  font-size: 11px;
+  background: #d1c286;
+  color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+
+
+
+
+
